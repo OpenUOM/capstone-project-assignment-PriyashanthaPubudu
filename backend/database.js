@@ -146,7 +146,7 @@ const updateStudent = async (name, age, religion, id) => {
                 reject(error);
             });
     });
-} 
+}
 
 const deleteStudent = async (id) => {
     const sql = `SELECT * FROM dummyData`
